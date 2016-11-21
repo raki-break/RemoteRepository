@@ -1,0 +1,11 @@
+body {
+        background-color : gray;
+}
+table{
+	width : 50%;
+	height : 70%;
+	background-color :  white;
+}
+tr{
+	font-size: 18px; 
+}
