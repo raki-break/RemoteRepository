@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>課題</title>
+		<link rel="stylesheet" type="text/css" href="excel.css">
+	</head>
+	<body>
+		備考：足し算と掛け算が可能。
+		<br>　　　答えは一番右の欄に表示。
+		<br>　　　全角数字対応。
+		<br>　　　数字以外の文字は飛ばして計算。<br>
+		<button onclick="add_Retu();" style="WIDTH: 100px; HEIGHT: 40px">列を追加する</button>
+		<button onclick="add_Gyou();" style="WIDTH: 100px; HEIGHT: 40px">行を追加する</button>
+		<button onclick="Keisan();" style="WIDTH: 80px; HEIGHT: 40px">計算する</button>
+		<button id="pa" onclick="kigou();" style="WIDTH: 40px; HEIGHT: 40px">+</button>
+		<table id="ex">
+			<thead>
+				<tr>
+					<th>番号</th>
+					<th>A</th>
+					<th>B</th>
+					<th>C</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr id="tr_1">
+					<td class="row">1</td>
+					<td id="tr_1_td_1" class="row_text"><textarea id="ta_1_1">2</textarea></td>
+					<td id="tr_1_td_2" class="row_text"><textarea id="ta_1_2">3</textarea></td>
+					<td id="tr_1_td_3" class="row_text"><textarea id="ta_1_3"></textarea></td>
+				</tr>
+				<tr id="tr_2">
+					<td class="row">2</td>
+					<td id="tr_2_td_1" class="row_text"><textarea id="ta_2_1">5</textarea></td>
+					<td id="tr_2_td_2" class="row_text"><textarea id="ta_2_2">7</textarea></td>
+					<td id="tr_2_td_3" class="row_text"><textarea id="ta_2_3"></textarea></td>
+				</tr>
+				<tr id="tr_3">
+					<td class="row">3</td>
+					<td id="tr_3_td_1" class="row_text"><textarea id="ta_3_1">6</textarea></td>
+					<td id="tr_3_td_2" class="row_text"><textarea id="ta_3_2">18</textarea></td>
+					<td id="tr_3_td_3" class="row_text"><textarea id="ta_3_3"></textarea></td>
+				</tr>
+			</tbody>
+		</table>
+		<script src="excel.js"></script>
+	</body>
+</html>
