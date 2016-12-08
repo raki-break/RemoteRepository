@@ -1,0 +1,32 @@
+.sente_koma{
+	color: #000000;
+}
+.gote_koma{
+	color: #000000;
+	display:inline-block;
+	transform: rotate(180deg);
+}
+.moti_koma{
+	color: black;
+}
+.this{
+	background-color:gray;
+}
+#Box {
+	overflow-y: scroll;
+	border: 1px solid #999;
+	width:50%;
+	height:50%;
+	float:right;
+}
+.sente_koma2{
+	color: #000000;
+	font-size:12px;
+}
+.gote_koma2{
+	color: #000000;
+	display:inline-block;
+	transform: rotate(180deg);
+	font-size:12px;
+	height:13px;
+}
